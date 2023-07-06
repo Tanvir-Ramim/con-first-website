@@ -6,3 +6,23 @@
     color: blueviolet;
   cursor: url(https://www.91-cdn.com/hub/wp-content/uploads/2020/04/sad-emoji-feature-1200x900.jpg),auto;
 }
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ flex-direction: row-reverse;
+
+}
+.box{
+    padding: 10px;
+     background-color: red;
+     width: 100px;
+
+}
+
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
