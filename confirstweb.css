@@ -4,7 +4,7 @@
 }
 
 .menu-container{
-    background-color: rgb(39, 37, 37);
+    background-color: rgb(66, 63, 63);
     padding: 20px;
     color: white;
     list-style: none;
@@ -21,7 +21,7 @@
 }
 
 .logophoto{
-    width: 130px;
+    width: 120px;
 }
 
 .item{
@@ -29,4 +29,37 @@
 }
 .item:hover{
     color: blueviolet;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-Container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    color: white;
+    border: 3px solid gray;
+    align-items: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8,8,8),#1f1e1e);
+}
+
+.headti{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+     background-color: red;
+     border: none;
+
+
+}
+.btn:hover{
+    color: blue;
 }
