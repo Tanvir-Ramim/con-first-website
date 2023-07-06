@@ -38,9 +38,12 @@
     justify-content: space-around;
     height: 100vh;
     color: white;
-    border: 3px solid gray;
+    /* border: 3px solid gray; */
     align-items: center;
-    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8,8,8),#1f1e1e);
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(7, 7, 7),#292828);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
 }
 
 .headti{
@@ -62,4 +65,79 @@
 }
 .btn:hover{
     color: blue;
+}
+
+.main-middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+
+}
+.us{
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+/* .middle-text{
+    tex
+} */
+.box1{
+    width: 230px;
+    height: 270px;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgb(34, 33, 33);
+    
+
+
+}
+.icon{
+    padding-bottom: 15px;
+    padding-top: 10px;
+    width: 70px;
+}
+.box-text{
+    padding: 15px;
+    font-size: 15px;
+}
+.us2{
+    padding-top: 20px;
+    color: white;
+}
+.all-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+
+}
+.box-container{
+    background-image: url("./images/background.png"),linear-gradient(10deg,rgb(8, 8, 8),#292828);
+    background-size: cover;
+}
+
+.maindiv{
+    background-color: black;
+    height: 40vb;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.div{
+    color: white;
+}
+
+.last{
+    color: white;
+    text-align: center;
+}
+.main{
+    background-color: black;
 }
